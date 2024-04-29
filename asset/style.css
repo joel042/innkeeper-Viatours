@@ -1,25 +1,25 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: inter;
- }
+}
 
 
 
-header{
+header {
     display: flex;
     justify-content: center;
     align-items: center;
-    justify-content: space-around; 
+    justify-content: space-around;
 }
-  
-.headerInput{
+
+.headerInput {
     display: inline-flex;
     justify-content: center;
     align-items: center;
 }
 
-.headerInput input{
+.headerInput input {
     width: 200px;
     height: 30px;
     border: none;
@@ -28,22 +28,22 @@ header{
 
 
 
-.logo img{
+.logo img {
     width: 200px;
     margin-bottom: 10px;
 }
 
-.links{
+.links {
     display: inline-flex;
 }
 
-.links a{
+.links a {
     text-decoration: none;
     padding: 0 10px;
     color: black;
 }
 
-.logInBtn{
+.logInBtn {
     border: none;
     width: 80px;
     height: 40px;
@@ -56,17 +56,17 @@ header{
 
 
 
- .bgImgContainer{
+.bgImgContainer {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    
- }
 
-.bgImg{
+}
+
+.bgImg {
     height: 700px;
     width: 1700px;
     background-color: blanchedalmond;
@@ -79,27 +79,28 @@ header{
     background-repeat: no-repeat;
 }
 
-.headerText{
+.headerText {
     text-align: center;
     margin-top: 150px;
-    
+
 }
 
-.headerText h1{
+.headerText h1 {
     font-size: 100px;
     color: white;
 }
 
-.headerText p{
+.headerText p {
     color: white;
     font-size: 14.65px;
 }
 
 
-input{
+input {
     border: none;
 }
-.smallContainer{
+
+.smallContainer {
     width: 1000px;
     height: 100px;
     border-radius: 10px;
@@ -110,68 +111,68 @@ input{
     margin-top: px;
 }
 
-.smallerContainer{
+.smallerContainer {
     width: 60px;
     height: 60px;
     border-radius: 15px;
     background-color: transparent;
     margin: 10px;
     box-shadow: 1px 1px 4px lightblue;
-    
+
 }
 
-.smallestContainer{
+.smallestContainer {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.smallestContainer h5{
+.smallestContainer h5 {
     font-size: larger;
 }
 
-.SearchBtn{
-border: none;
-width: 180px;
-margin: 8px;
-border-radius: 25px;
-background-color: #EB662B;
-color: white;
-font-size: larger;
+.SearchBtn {
+    border: none;
+    width: 180px;
+    margin: 8px;
+    border-radius: 25px;
+    background-color: #EB662B;
+    color: white;
+    font-size: larger;
 
 
 }
 
 /* Tourz */
 
-.chooseTourz{
+.chooseTourz {
     display: flex;
     flex-direction: column;
     margin-top: 100px;
 }
 
-.chooseTourzContainer{
+.chooseTourzContainer {
     height: 100px;
     width: 1300px;
     display: flex;
     justify-content: space-between;
     margin: 50px;
-   
+
 
 }
 
-.Tourz{
-       width: 100%;
-       height: 100%;
-       display: flex;
-       justify-content: center;
-       flex-direction: column;
-       align-items: center;
+.Tourz {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 
 
-.Counts{
+.Counts {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -184,17 +185,19 @@ font-size: larger;
     padding-top: 5px;
 }
 
-.smallBullet{
+.smallBullet {
     margin-top: 10px;
-  
+
 }
 
-.smallBullet img{
+.smallBullet img {
     margin: 0 5px;
 }
 
 
-.popularToursContainer{
+/* bv */
+
+.popularToursContainer {
     width: 1320px;
     height: 940.63px;
     background-color: transparent;
@@ -204,7 +207,7 @@ font-size: larger;
     justify-content: center;
 }
 
-.popularSmallContainer{
+.popularSmallContainer {
     width: 300px;
     height: 400px;
     background-color: white;
@@ -213,23 +216,23 @@ font-size: larger;
     justify-content: center;
     align-items: center;
     border-radius: 15px;
-     margin: 15px;
-     border: 1px solid rgba(0, 0, 0, 0.263);
+    margin: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.263);
 }
 
-.popularToursImg img{
+.popularToursImg img {
     margin-left: 0px;
     margin-bottom: 10px;
-    
+
 }
 
-.popularToursCircle{
+.popularToursCircle {
     position: absolute;
     margin-left: 200px;
     margin-top: 50px;
 }
 
-.Toursprice{
+.Toursprice {
     width: 220px;
     display: flex;
     align-items: center;
@@ -239,53 +242,53 @@ font-size: larger;
     justify-content: space-between;
 }
 
-.popularToursState{
-    /* padding-right: 150px; */
+.popularToursState {
     margin-bottom: 10px;
     margin-right: 150px;
     margin-top: 15px;
 }
 
-.popularToursHeading{
+.popularToursHeading {
     padding-left: 10px;
 }
 
-.popularToursRating{
+.popularToursRating {
     justify-content: center;
     padding-top: 10px;
 }
 
-.fourContainers{
+.fourContainers {
     display: flex;
 
 }
 
-.popularToursState{
+.popularToursState {
     color: rgba(128, 128, 128, 0.826);
 }
 
-.grabContainer{
+.grabContainer {
     width: 1320px;
     height: 500px;
     background-color: #ffffff;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
-.grabTexts{
+.grabTexts {
     width: 250px;
     display: flex;
     flex-direction: column;
     align-items: start;
 }
 
-.grapImg img{
+.grapImg img {
     width: 500px;
     border-radius: 20px;
 }
 
-.grabBtn button{
+.grabBtn button {
     border: none;
     width: 167.86px;
     height: 62px;
@@ -297,7 +300,126 @@ font-size: larger;
     margin-top: 20px;
 }
 
-.grabSubText{
+.grabSubText {
     margin-top: 20px;
     width: 300px;
+}
+
+.grabContainerSection {
+    display: flex;
+    justify-content: center;
+}
+
+/* popularthings */
+
+
+.popularThingsContainer {
+    max-width: 1270px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 300px 410px 260px 1fr;
+    grid-template-rows: 240px 240px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+
+.boxtwo {
+    grid-row: span 2;
+    height: 490px;
+    background-image: url(/asset/div.featureCard__image\ \(1\).png);
+    border-radius: 10px;
+}
+
+.boxSix {
+    border-radius: 10px;
+    background-image: url(/asset/div.featureCard__image.png);
+
+}
+
+.boxThree {
+    grid-column: span 2;
+    background-image: url(/asset/div.featureCard__image\ \(2\).png);
+    width: 520px;
+    border-radius: 10px;
+}
+
+.boxOne {
+    background-image: url(/asset/div.featureCard__image\ \(6\).png);
+    border-radius: 10px;
+}
+
+.boxFour {
+    background-image: url(/asset/div.featureCard__image\ \(3\).png);
+    height: 240px;
+    width: 180px;
+
+    border-radius: 10px;
+}
+
+.boxFive {
+    width: 250px;
+    background-image: url(/asset/div.featureCard__image\ \(4\).png);
+    border-radius: 10px;
+    width: 250px;
+
+}
+
+
+
+.popularThingsHeader,
+.topTrendingHeader {
+    max-width: 1270px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.popularThingsHeader,
+h2 {
+    margin-right: auto;
+
+}
+
+.popularThingsHeader p {
+    margin-left: auto;
+}
+
+.textOne,
+.textThree,
+.textFour,
+.textFive,
+.textSix {
+    margin-top: 200px;
+    color: white;
+    margin-left: 10px;
+}
+
+.textTwo {
+    margin-top: 450px;
+    color: white;
+    margin-left: 10px;
+}
+
+.topTrendingHeader p {
+    margin-left: auto;
+}
+
+.topTrendingHeader h2 {
+    margin-right: auto;
+}
+
+
+/* four Grid */
+
+.topTrendingContainer {
+    display: flex;
+    margin-top: 10px;
+    background-color: rgba(128, 128, 128, 0.102);
+    border-radius: 20px;
 }
