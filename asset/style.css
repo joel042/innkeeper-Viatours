@@ -371,6 +371,7 @@ input {
 
 
 
+
 .popularThingsHeader,
 .topTrendingHeader {
     max-width: 1270px;
@@ -415,11 +416,123 @@ h2 {
 }
 
 
-/* four Grid */
+/* topTrendingContainer */
 
-.topTrendingContainer {
+.topTrendingContainer{
     display: flex;
     margin-top: 10px;
     background-color: rgba(128, 128, 128, 0.102);
     border-radius: 20px;
 }
+
+.customerReview{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+margin-top: 50px;
+
+}
+
+.customerReviewSmall{
+        width: 450px;
+        height: 400px;
+        background-color: white;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+        margin: 15px;
+}
+.ExcellentService{
+    color: #EB662B;
+    padding: 20px;
+    font-weight: bolder;
+}
+
+.reviewMessage{
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.reviewName, .Traveler {
+    font-size: 13px;
+    padding-top: 2px;
+}
+
+.customerReviewImg{
+    background-image: url(/asset/image\ \(5\).png);
+    height: 100px;
+    width: 100px;
+    margin-left: 166px;
+    margin-top: 10px;
+}
+
+.svgReview{
+    height: 20px;
+    width: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #EB662B;
+    margin-top: 10px;
+}
+
+
+/* appbooking */
+
+.appBooking{
+    width: 1530px;
+    height: 514px;
+    background-image: url(/asset/text.png);
+    max-width: 1530px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} 
+
+.bookingText{
+      width: 450px;
+      height: 200px;
+      text-align: start;
+      border-radius: 15px;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      margin-right: 500px;
+      margin-top: 0px;
+      
+}
+
+.emailContainer{
+    margin-top: 15px;
+}
+.email input {
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+}
+
+.email button{
+     width: 100px;
+     height: 60px;
+     border-radius: 10px;
+     border: none;
+}
+.email button p{
+    color: rgba(0, 0, 255, 0.705);
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.bookingText h2{
+    padding: 20px 0;
+    font-size: 45px;
+}
+
+/* .bookingText p{
+  padding-bottom: 20px;
+} */
